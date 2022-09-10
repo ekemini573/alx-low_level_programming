@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - Entry point
  *
@@ -8,19 +7,14 @@
 
 int main(void)
 {
-char x = 'a', y = 'A';
-
+char x = 'a';
 while (x <= 'z')
+{
+if (x != 'q' && x != 'e')
 {
 putchar(x);
 x++;
 }
-
-while (y <= 'Z')
-{
-putchar(toupper(y));
-x++;
 }
-putchar('\n');
 return (0);
 }

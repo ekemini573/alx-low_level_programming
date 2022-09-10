@@ -17,5 +17,6 @@ lowercase =  tolower(x);
 putchar(lowercase);
 x++;
 }
+putchar('\n');
 return (0);
 }

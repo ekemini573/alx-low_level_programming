@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-int base10 = 0;
-while (base10 < 10)
+int base10 = '0';
+while (base10 <= '9')
 {
-printf("%d\n", base10);
+putchar(base10);
 base10++;
 }
+putchar('\n');
 return (0);
 }

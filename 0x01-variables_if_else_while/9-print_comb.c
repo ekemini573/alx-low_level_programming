@@ -8,15 +8,18 @@
 int main(void)
 {
 int x = '0';
-while (x <= '8')
+while (x <= '9')
 {
 
 putchar(x);
+if (x != 9)
+{
 putchar(',');
 putchar(' ');
-
+}
+else
+putchar('\n');
 x++;
 }
-putchar('9');
 return (0);
 }

@@ -6,29 +6,29 @@
  */
 int main(void)
 {
-  int x,y,z;
+int x, y, z;
 
-  for (x = 48; x < 58; x++)
-    {
-      for (y = 48; y < 58; y++)
-	{
-	  for (z = 48; z < 58; z++)
-	    {
-	      if (x < y && y < z)
-		{
-		  putchar(x);
-		  putchar(y);
-		  putchar(z);
-		  if (x == '7' && y == '8' && z== '9')
-		    {
-		      break;
-		    }
-		  putchar(',');
-		  putchar(' ');
-		}
-	    }
-	}
-    }
-  putchar('\n');
-  return (0);
+for (x = 48; x < 58; x++)
+{
+for (y = 48; y < 58; y++)
+{
+for (z = 48; z < 58; z++)
+{
+if (x < y && y < z)
+{
+putchar(x);
+putchar(y);
+putchar(z);
+if (x == '7' && y == '8' && z == '9')
+{
+break;
+}
+putchar(',');
+putchar(' ');
+}
+}
+}
+}
+putchar('\n');
+return (0);
 }

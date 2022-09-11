@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - Entry point
  *
@@ -7,19 +8,19 @@
 
 int main(void)
 {
-int x = '0';
-while (x <= '9')
-{
+  int x ='0';
+  while (x <= '9')
+    {
 
-putchar(x);
-if (x != 9)
-{
-putchar(',');
-putchar(' ');
-}
-else
-putchar('\n');
-x++;
-}
-return (0);
+      putchar(x);
+      if (x != '9')
+
+	{
+	  putchar(',');
+	  putchar(' ');
+	}
+      x++;
+    }
+  putchar('\n');
+  return (0);
 }

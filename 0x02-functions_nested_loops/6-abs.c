@@ -12,4 +12,6 @@ a = (-1) * a;
 
 return (a);
 }
+else
+return (-a);
 }

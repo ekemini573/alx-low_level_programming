@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - Entry point
- *@c
+ *@c: caracter recibo por main.
  * Return: 0 if it is lower or uppercase
  */
 int _isalpha(int c)

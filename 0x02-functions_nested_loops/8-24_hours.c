@@ -15,12 +15,12 @@ for (h = 0; h <= 23; h++)
 for (min = 0; min <= 59; min++)
 {
 
-putchar((h / 10) + '0');
-putchar((h % 10) + '0');
-putchar(':');
-putchar((min / 10) + '0');
-putchar((min % 10) + '0');
-putchar('\n');
+_putchar((h / 10) + '0');
+_putchar((h % 10) + '0');
+_putchar(':');
+_putchar((min / 10) + '0');
+_putchar((min % 10) + '0');
+_putchar('\n');
 
 }
 
